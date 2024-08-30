@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 5px;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.msg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(120deg, #3b79ffd8, #7125ffda);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; 
+
+}
+/*Anotações sobre as tags CSS
+Para estudar: box shadow, border-radius, magin, padding;           */
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.relogio div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    background: rgba(5, 5, 5, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span{
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+
+.relogio span.time{
+    font-size: 20px;
+
+}
